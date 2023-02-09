@@ -6,15 +6,15 @@ const { program } = require('commander')
 const options = {
   '-d --directory <dir> ': {
     'description': 'directory',
-    'example': '  rename -d d:\\doc'
+    'example': '  rename -d D:\\doc'
   },
   '-r --replace <dir>': {
     'description': 'replace file name content',
-    'example': '  rename -r 【海量资源：666java.com】'
+    'example': "  rename -r '【海量资源：666java.com】'"
   },
   '-c --content <dir>': {
     'description': 'replace with something, default value is empty',
-    'example': '  rename -c _'
+    'example': "  rename -c '$E'"
   }
 }
 
