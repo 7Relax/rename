@@ -74,7 +74,7 @@ class Start {
     const reg = /(\.[\d]{2}\s)|(\smp4)/
     let str = null
     if (name.search(reg) !== -1) {
-      str = name.replace(reg, '').trim()
+      str = name.replace(reg, ' ').trim()
     }
     return str
   }
